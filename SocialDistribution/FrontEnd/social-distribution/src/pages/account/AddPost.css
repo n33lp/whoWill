@@ -1,0 +1,158 @@
+:root {
+    --main-color: #000000;
+    --secondary-color: white;
+    --primary-button-color: rgb(0, 170, 255);
+    --secondary-button-color: rgb(255, 255, 255);
+}
+
+.add-post-scrollable {
+    overflow-y: auto;
+    max-height: 90vh;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+.add-post-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.add-post-scrollable::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
+
+.add-post-content {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.add-post-content h2 {
+    font-size: 1.5rem;
+}
+
+.add-post-content textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+.add-post-content select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit-button {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border-color: var(--main-color);
+    padding: 10px 20px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: medium;
+    margin: 4px;
+    padding: 8px;
+    transition: background-color 0.3s,
+        color 0.3s;
+        box-shadow: 0.3s;
+    width: fit-content;
+    height: fit-content;
+}
+
+#submit-button:hover {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    box-shadow: var(--button-shadow)
+}
+
+#submit-button:active {
+    opacity: 0.8;
+}
+
+#cancel-button {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border-color: var(--main-color);
+    padding: 10px 20px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: medium;
+    margin: 4px;
+    padding: 8px;
+    transition: background-color 0.3s,
+        color 0.3s;
+        box-shadow: 0.3s;
+    width: fit-content;
+    height: fit-content;
+}
+
+#cancel-button:hover {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    box-shadow: var(--button-shadow)
+}
+
+#cancel-button:active {
+    opacity: 0.8;
+}
+
+#image-selector {
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+#title {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+#source {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#origin {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#categories {
+    text-align: left;
+}
+
+#visibility-label{
+    margin-top: 100px;
+}

@@ -1,0 +1,57 @@
+
+
+.aFriend {
+    border-top: 1px solid black;
+    font-size: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px 60px;
+}
+
+.myFriends {
+    border-bottom: 1px solid black;
+    margin-top: 25px;
+}
+
+.viewProfileButton {
+    display: None !important;
+}
+
+#text {
+    display: None !important;
+}
+
+.messageButton, .viewProfileButton {
+    background-color: #256ce1;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 80px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.messageButton:hover, .viewProfileButton:hover {
+    transition: all 0.2s ease-in-out;
+    background: black;
+}
+
+.friendName {
+    font-size: 18px;
+    width: 100px; /* hacky, fix if need */
+    display: flex;
+    align-items: center;
+    margin-right: 40px; 
+}
+
+.friendsTitle {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(21,205,252,1) 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
