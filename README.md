@@ -1,18 +1,5 @@
 Who Will
 
-[Project requirements](https://github.com/uofa-cmput404/project-socialdistribution/blob/master/project.org) 
-
-Contributors / Licensing
-========================
-
-Authors:
-Firstname Lastname    
-* Neel Patel
-* William Boytinck
-* Frank Li
-* Ian Harding
-* Xuemeng Wei
-  
 User Stories:
 
 --------------------------------------------------------------------------------
